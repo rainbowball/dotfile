@@ -13,7 +13,7 @@ return {
       defaults = {
         mappings = {
           i = {
-            ["<C-f>"] = require("telescope.actiions").preview_scrolling_left,
+            ["<C-f>"] = require("telescope.actions").preview_scrolling_left,
           },
         },
       },
