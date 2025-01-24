@@ -1,0 +1,10 @@
+[user]
+	name = rainbowball
+	email = sun_yasong@outlook.com
+[alias]
+	co = checkout
+	cp = cherry-pick
+	b = branch
+	ci = commit
+	st = status
+	lg = log --graph --oneline
