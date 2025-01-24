@@ -8,18 +8,6 @@ return {
     },
   },
   {
-    "nvim-telescope/telescope.nvim",
-    opts = {
-      defaults = {
-        mappings = {
-          i = {
-            ["<C-f>"] = require("telescope.actions").preview_scrolling_left,
-          },
-        },
-      },
-    },
-  },
-  {
     "neovim/nvim-lspconfig",
     keys = {
       { "gh", "K", desc = "Hover", remap = true },

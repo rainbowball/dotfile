@@ -26,4 +26,24 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = false },
   rocks = { enabled = false, hererocks = false },
+  performance = {
+    rtp = {
+      disabled_plugins = {
+        "gzip",
+        "health",
+        "man",
+        "matchit",
+        "matchparen",
+        "netrwPlugin",
+        "nvim",
+        "rplugin",
+        "shada",
+        "spellfile",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+      },
+    },
+  },
 })
