@@ -1,10 +1,10 @@
 -- stylua: ignore
 return {
-  { "folke/tokyonight.nvim" },
+  { "catppuccin/nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-moon",
+      colorscheme = "catppuccin-frappe",
     },
   },
   {
